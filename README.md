@@ -1,5 +1,3 @@
-# Cookies & Sessions
-
 <!--
 Creator: WDI Team, editing by Cory
 Market: SF
@@ -23,7 +21,6 @@ There are a few ways to ensure that your users experience "continuity" between v
 - Discuss and use an HTTP Cookie in a web application
 - Differentiate between an HTTP Cookie and a Session
 
-
 ### Where should we be now?
 <!-- call out the skills that are prerequisites -->
 *Before this workshop, developers should already be able to:*
@@ -32,11 +29,8 @@ There are a few ways to ensure that your users experience "continuity" between v
 - Make HTTP requests.
 - Use the Chrome Dev tools.
 
-
-Today's lab can be found here: **[Cookie Monster App](https://github.com/sf-wdi-31/cookie_monster_app)**
-
-# Cookies
-## What's a cookie?
+## Cookies
+### What's a cookie?
 An HTTP cookie is a [small piece of data](http://stackoverflow.com/questions/4100324/how-many-characters-can-be-stored-in-4kb) sent from a website and stored in a user's web browser. Every time the user loads the website, the browser sends the cookie back to the server in the HTTP Request Header. Cookies are commonly used to track whether a user is logged in or not. They can also be used to record user preferences.
 
 ![cookie-monster](http://media0.giphy.com/media/EKUvB9uFnm2Xe/giphy.gif)
@@ -158,7 +152,7 @@ end
 ```
 
 #### Exercises
-Today's lab can be found here: **[Cookie Monster App](https://github.com/sf-wdi-31/cookie_monster_app)**
+Today's lab can be found here: **[Cookie Monster App](https://github.com/sf-wdi-31/cookie-monster-app)**
 
 #### Resources
 * [Rails Guides: Securing Sessions](http://guides.rubyonrails.org/security.html)
