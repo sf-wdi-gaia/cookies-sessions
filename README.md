@@ -1,12 +1,39 @@
 # Cookies & Sessions
 
-| Objectives |
-| :---- |
-| Review the request and response cycle and the stateless web |
-| Discuss and use an HTTP Cookie in a web application |
-| Differentiate between an HTTP Cookie and a Session |
+<!--
+Creator: WDI Team, editing by Cory
+Market: SF
+-->
 
-Today's lab can be found here: **[Cookie Monster App](https://github.com/sf-wdi-27-28/cookie_monster_app)**
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
+
+# Cookies and Sessions
+
+### Why is this important?
+<!-- framing the "why" in big-picture/real world examples -->
+*This workshop is important because:*
+
+There are a few ways to ensure that your users experience "continuity" between visits to your website. It's nice if you don't need to log on each time you visit a website. It's nice if a site can remember your progress through an article you were reading. It's nice if  the browser already knows about some this information on page load, rather than waiting for a DB response. We can use cookies for this need! If we don't need the user info immediately, we can use sessions, which we do store in the DB. They can hold much more data, but they're slower to access when loading the page.
+
+### What are the objectives?
+<!-- specific/measurable goal for students to achieve -->
+*After this workshop, developers will be able to:*
+
+- Describe the request and response cycle's relationship to the stateless web
+- Discuss and use an HTTP Cookie in a web application
+- Differentiate between an HTTP Cookie and a Session
+
+
+### Where should we be now?
+<!-- call out the skills that are prerequisites -->
+*Before this workshop, developers should already be able to:*
+
+- Describe the request response cycle.
+- Make HTTP requests.
+- Use the Chrome Dev tools.
+
+
+Today's lab can be found here: **[Cookie Monster App](https://github.com/sf-wdi-31/cookie_monster_app)**
 
 # Cookies
 ## What's a cookie?
@@ -131,7 +158,7 @@ end
 ```
 
 #### Exercises
-Today's lab can be found here: **[Cookie Monster App](https://github.com/sf-wdi-27-28/cookie_monster_app)**
+Today's lab can be found here: **[Cookie Monster App](https://github.com/sf-wdi-31/cookie_monster_app)**
 
 #### Resources
 * [Rails Guides: Securing Sessions](http://guides.rubyonrails.org/security.html)
