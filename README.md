@@ -69,7 +69,7 @@ The Cookie is then saved to the browser for localhost:3000. You can view it in t
 
 Here's a look at the cookie from a google page:
 
-![dev tools](https://developers.google.com/web/tools/chrome-devtools/iterate/manage-data/imgs/cookies.png)
+![dev tools](https://cloud.githubusercontent.com/assets/6520345/19082351/9e55596a-8a12-11e6-9d66-e644b7df0795.png)
 
 [For more detail, check out the Google Developers page on cookies and the dev tools](https://developers.google.com/web/tools/iterate/manage-data/cookies?hl=en).
 
@@ -84,27 +84,25 @@ Once the cookie is set in the browser, any subsequent request to the website aut
 ## Reading and Writing Cookies -- Client Side
 It's also possible to manipulate cookies on the client-side.
 
-From the Chrome Developer Console:
+To demonstrate the JavaScript syntax, use the Chrome Developer Console:
 
 ``` javascript
 document.cookie; // "message=hello"
 ```
 
-You can write to this string simply by reassigning its value. Take care though that you don't overwrite anything important (and watch out for spaces and semi-colons)!
+As you can see, the cookie displays as a string! It works differently though. You use assignment (`=`) to add values to this string:
 
 ``` javascript
-document.cookie += "; magic_number=10;"
+document.cookie = "magic_number=10;"
 document.cookie; // "vist_count=2; magic_humber=10;"
 ```
 
-Try it out! Open your Console, and see what cookies are set in your browser. Try it out on a few different websites.
 
-* Can you create a new cookie.
-* Can you overwrite an existing cookie.
-* Can you add a key-value pair to an existing cookie.
-* Can you log yourself out of a website by deleting your cookie (and refreshing the page)?
+Does it work for you?! Open your Console:
 
-For more on this approach, take a look at [Quirksmode on Cookies](http://www.quirksmode.org/js/cookies.html).
+* Can you add a key-value pair to an existing cookie?
+
+For more on this approach, take a look at [Quirksmode on Cookies](http://www.quirksmode.org/js/cookies.html#ex).
 
 **Additional reading:**
 * [Cookies in the Chrome Console](https://developers.google.com/web/tools/iterate/manage-data/cookies?hl=en)
@@ -157,3 +155,5 @@ Today's lab can be found here: **[Cookie Monster App](https://github.com/sf-wdi-
 #### Resources
 * [Rails Guides: Securing Sessions](http://guides.rubyonrails.org/security.html)
 * [Cookies, Sessions, & Flash Messages](http://www.theodinproject.com/ruby-on-rails/sessions-cookies-and-authentication)
+* [MDN Cookies docs](https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie)
+* [MDN Sessions docs](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage)
