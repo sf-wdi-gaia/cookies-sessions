@@ -114,7 +114,7 @@ For more on this approach, take a look at [Quirksmode on Cookies](http://www.qui
 # Sessions
 Cookies are great, but they're limited in size, and they're hard to work with. If we want finer control, we want sessions!
 
-Sessions are just cookies! But sessions generally store their data in a database (on the server), instead of as a string of key/value pairs (in the client's browser).
+Sessions use cookies to store a reference to an object stored in memory on the server-side.
 
 Imagine for a moment that we have a fancy quiz-app and we used cookies to store user preferences and the current state of the quiz. Eventually the request header might look like:
 
