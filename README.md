@@ -149,9 +149,6 @@ def update
 end
 ```
 
-#### Exercises
-Today's lab can be found here: **[Cookie Monster App](https://github.com/sf-wdi-31/cookie-monster-app)**
-
 #### Resources
 * [Rails Guides: Securing Sessions](http://guides.rubyonrails.org/security.html)
 * [Cookies, Sessions, & Flash Messages](http://www.theodinproject.com/ruby-on-rails/sessions-cookies-and-authentication)
